@@ -245,6 +245,7 @@ body.anti-aug .aug-exe:after {
 
 .fps-label {
   background: #000000;
+opacity:1.0;
   color: #ffffff;
   height: 1.25rem;
   width: 2.188rem;
@@ -344,80 +345,14 @@ body.anti-aug .aug-exe:after {
 }
 
 
-/* extra large device */
-@media (max-width: 1200px){
 
 
 
-body {
-  font-size: 0.875rem;
 }
 
 
 
 
-.definitions-container {
-  pointer-events: all;
-  position: absolute;
-  bottom: 2.813rem;
-  right: 1.563rem;
-  height: 75rem;
-  width: 9.375rem;
-  transform-origin: 100% 50%;
-  transform: rotateY(-5deg);
-}
-
-}
-
-/* large device */
-@media (max-width: 992px){
-
-
-
-
-
-body {
-  font-size: 0.675rem;
-}
-
-
-
-
-.definitions-container {
-  pointer-events: all;
-  position: absolute;
-  bottom: 1.813rem;
-  right: 0.563rem;
-  height: 45rem;
-  width: 4.375rem;
-  transform-origin: 100% 50%;
-  transform: rotateY(-5deg);
-}
-
-}
-
-
-
-/* small device */
-@media (max-width: 576px){
-
-body {
-  font-size: 0.175rem;
-}
-
-
-
-
-.definitions-container {
-  pointer-events: all;
-  position: absolute;
-  bottom: 0.813rem;
-  right: 0.263rem;
-  height: 25rem;
-  width: 3.375rem;
-  transform-origin: 100% 50%;
-  transform: rotateY(-5deg);
-}
 
 
 
